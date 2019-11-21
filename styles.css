@@ -79,8 +79,8 @@ header .profile-image:hover {
   transform: scale(1.15) rotate(1turn);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: black;
+  color: #efefef;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -88,7 +88,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -101,7 +101,20 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
+}
+.lg-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.lg-card:hover {
+  border-color: #0399ff;
 }
 
 ul.skills {
@@ -170,6 +183,7 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
+
 @media screen and (min-width: 720px) {
   
   .flex {
@@ -207,3 +221,62 @@ a.social:hover {
 
 }
 
+/* Styles for experience section */
+
+.mb-para {
+  font-weight: 500;
+}
+
+.abilities {
+  padding-left: 1em;
+}
+
+.ud-h3 {
+  text-decoration: underline;
+}
+
+.sd-ct-tx {
+  text-align: center;
+  display: block;
+}
+
+.sd-image {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.sd-link {
+  margin: 16px;
+  color: black;
+  text-decoration: underline;
+}
+
+/* Styles for contact section */
+
+.fm-container {
+  width: 420px;
+}
+
+.fm-field {
+  height: 45px;
+  width: 420px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  font-size: 45px;
+}
+.fm-tx-area {
+  height: 100px;
+  width: 420px;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  resize: none;
+}
+
+.btn-submit {
+  height: 45px;
+  width: 420px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
