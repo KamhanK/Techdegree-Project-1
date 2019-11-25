@@ -20,7 +20,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: black;
 }
 
 /* Section Styles */
@@ -182,45 +182,6 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
-
-@media screen and (min-width: 720px) {
-  
-  .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
-      max-width: 1200px;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      margin: 0 auto;
-  }
-
-  header {
-    min-height: 470px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
-
-
-  main {
-    padding-top: 20px;
-  }
-
-  main p {
-    line-height: 1.6em;
-  }
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
-
-}
-
 /* Styles for experience section */
 
 .mb-para {
@@ -272,11 +233,54 @@ a.social:hover {
   margin-bottom: 16px;
   font-size: 16px;
   resize: none;
+  border-color: #d3d3d3;
 }
 
 .btn-submit {
   height: 45px;
   width: 420px;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 19.92px;
+  background-color: #F0F0F0;
+  border-color: #d3d3d3
 }
+
+/* Styles for larger screens */
+
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
+
