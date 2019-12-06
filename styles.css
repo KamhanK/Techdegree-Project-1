@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+/* global layout set-up */
 
 * { 
   box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
   background: #f7f5f0;
 }
 
-/* Link Styles */
+/* link styles */
 
 a {
   text-decoration: none;
@@ -23,7 +23,7 @@ a:hover {
   color: black;
 }
 
-/* Section Styles */
+/* section styles */
 
 .main-nav {
   width: 100%;
@@ -182,7 +182,7 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for experience section */
+/* experience styles */
 
 .mb-para {
   font-weight: 500;
@@ -213,7 +213,7 @@ a.social:hover {
   text-decoration: underline;
 }
 
-/* Styles for contact section */
+/* contact styles */
 
 .fm-container {
   width: 420px;
@@ -245,7 +245,7 @@ a.social:hover {
   border-color: #d3d3d3
 }
 
-/* Styles for larger screens */
+/* media queries */
 
 @media screen and (min-width: 720px) {
   
