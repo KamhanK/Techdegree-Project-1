@@ -19,6 +19,7 @@ a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
   color: black;
 }
@@ -33,6 +34,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -47,12 +49,15 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: white
 }
@@ -64,9 +69,11 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -75,9 +82,11 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.15) rotate(1turn);
 }
+
 .tag {
   background-color: black;
   color: #efefef;
@@ -86,10 +95,12 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
 .location {
   background-color: #222;
   color: white;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -100,9 +111,11 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #0399ff;
 }
+
 .lg-card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -113,6 +126,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .lg-card:hover {
   border-color: #0399ff;
 }
@@ -166,18 +180,23 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
@@ -226,6 +245,7 @@ a.social:hover {
   margin-bottom: 16px;
   font-size: 25px;
 }
+
 .fm-tx-area {
   height: 100px;
   width: 420px;
