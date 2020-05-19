@@ -239,7 +239,7 @@ a.social:hover {
 /* Contact Styles */
 
 .fm-container {
-  width: 420px;
+  max-width: 420px;
 }
 
 form {
