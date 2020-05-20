@@ -24,6 +24,7 @@ Edit the styling of the profile photo’s CSS properties. Pick at least one of t
 - transformation
 
 Add more photos and imagery to the page.
+
 Add more text to the page such as a list of your hobbies.
 
 **Grade Received:**
