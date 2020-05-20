@@ -8,7 +8,7 @@
 
 **Project Description:**
 
-In this project I customized the existing code for a personal profile page website. I added my own graphics, which inculded a background header image that I purchased from Shutterstock and a professional personal profile image of myself. I customized the webiste by adding my own textual content. I added my own links to GitHub, Twitter and LinkedIn accounts to the existing social links for the social svg's. I added new pages for experience, interests and contact. I customized those pages with my own textual content, HTML and CSS. Within that customization I fulfilled the "exceeds expectations" requirements by adjusting the profile image border, transiton and transformation properties and I also added my own custom form on the contact page. I added an extra image on the interests page.
+For this project I customized the existing code for a personal profile page website. I added my own graphics, which inculded a background header image that I purchased from Shutterstock and a professional personal profile image of myself. I customized the webiste by adding my own textual content. I added my own links to GitHub, Twitter and LinkedIn accounts to the existing social links for the social svg's. I added new pages for experience, interests and contact. I customized those pages with my own textual content, HTML and CSS. Within that customization I fulfilled the "exceeds expectations" requirements by adjusting the profile image border, transiton and transformation properties and I also added my own custom form on the contact page. I added an extra image on the interests page.
 
 **Exceeds Expectations Requirements:**
 
