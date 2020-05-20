@@ -1,5 +1,4 @@
-# FEWD-TDP-1-Personal-Profile-Page
-## Techdegree Project 1 - My Personal Profile Page
+# Techdegree Project 1 - My Personal Profile Page
 
 **Skills Used:**
 
