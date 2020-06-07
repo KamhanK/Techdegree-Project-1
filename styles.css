@@ -40,8 +40,6 @@ a:hover {
 }
 
 .nav {
-  display: flex;
-  justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
@@ -71,7 +69,8 @@ header {
   background: url('images/new_background.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 200px;
+  font-size: .65em;
 }
 
 header {
@@ -80,8 +79,8 @@ header {
 
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
@@ -156,7 +155,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 40px 0px;
 }
 
 footer .copyright {
@@ -227,7 +226,7 @@ a.social:hover {
 .sd-image {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  max-width: 150px;
 }
 
 .sd-link {
@@ -252,7 +251,7 @@ form {
   padding: 1rem;
   margin-top: 5px;
   margin-bottom: 16px;
-  
+  border: 1px solid #d3d3d3;
 }
 
 .fm-tx-area {
@@ -272,13 +271,42 @@ form {
   font-size: 16px;
   margin-bottom: 19.92px;
   background-color: #F0F0F0;
-  border-color: #d3d3d3
+  border-color: #d3d3d3;
+}
+
+.fm-field,
+.fm-tx-area,
+.btn-submit {
+  outline: none;
 }
 
 /* Media Queries */
 
 @media only screen and (min-width: 720px) {
   
+  /* Section Styles */
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header {
+    min-height: 470px;
+    padding-top: 60px;
+    font-size: 1em;
+  }
+
+  header .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
   .flex {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: flex; 
@@ -287,16 +315,6 @@ form {
     justify-content: space-around;
     margin: 0 auto;
   }
-
-  header {
-    min-height: 470px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
-
 
   main {
     padding-top: 20px;
@@ -310,6 +328,12 @@ form {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  /* Experience Styles */
+
+  .sd-image {
+    max-width: 300px;
   }
 
 }

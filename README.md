@@ -1,6 +1,6 @@
 # Techdegree Project 1 - Personal Profile Page
 
-**Skills Used:**
+**Skills & Technologies Used:**
 
 - HTML
 - CSS
