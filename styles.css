@@ -35,7 +35,6 @@ a:hover {
   background: black;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
   text-align: center;
 }
 
@@ -285,6 +284,10 @@ form {
 @media only screen and (min-width: 720px) {
   
   /* Section Styles */
+
+  .main-nav {
+    position: fixed;
+  }
 
   .nav {
     display: flex;
