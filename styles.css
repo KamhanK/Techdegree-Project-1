@@ -68,7 +68,6 @@ header {
   background: url('images/new_background.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 200px;
   font-size: .65em;
 }
 
