@@ -31,6 +31,7 @@ a:hover {
 /* Section Styles */
 
 .main-nav {
+  position: fixed;
   width: 100%;
   background: black;
   min-height: 30px;
@@ -39,6 +40,8 @@ a:hover {
 }
 
 .nav {
+  display: flex;
+  justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
@@ -68,7 +71,7 @@ header {
   background: url('images/new_background.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
-  font-size: .65em;
+  padding-top: 60px;
 }
 
 header {
@@ -77,8 +80,8 @@ header {
 
 header .profile-image {
   margin-top: 50px;
-  width: 115px;
-  height: 115px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
@@ -284,24 +287,9 @@ form {
   
   /* Section Styles */
 
-  .main-nav {
-    position: fixed;
-  }
-
-  .nav {
-    display: flex;
-    justify-content: space-around;
-  }
-
   header {
     min-height: 470px;
-    padding-top: 60px;
     font-size: 1em;
-  }
-
-  header .profile-image {
-    width: 150px;
-    height: 150px;
   }
 
   .nav {
