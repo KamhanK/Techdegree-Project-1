@@ -30,6 +30,6 @@ Add more text to the page such as a list of your hobbies.
 
 Exceeds Expectations
 
-You can see the live project at the following link: https://shoaibkamalkhan.github.io/.
+You can see the live project at the following link: https://shoaibkamalkhan.github.io/FEWD-TDP-1-Personal-Profile-Page.
 
 You can see my portfolio at the following link: https://shoaibkamalkhan.github.io.

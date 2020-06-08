@@ -219,6 +219,8 @@ a.social:hover {
   text-decoration: underline;
 }
 
+/* Interests Styles */
+
 .sd-ct-tx {
   text-align: center;
   display: block;
@@ -289,7 +291,6 @@ form {
 
   header {
     min-height: 470px;
-    font-size: 1em;
   }
 
   .nav {
@@ -320,7 +321,7 @@ form {
     margin: 40px auto;
   }
 
-  /* Experience Styles */
+  /* Interests Styles */
 
   .sd-image {
     max-width: 300px;
