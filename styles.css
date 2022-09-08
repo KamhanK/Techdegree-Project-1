@@ -271,6 +271,7 @@ form {
 .btn-submit {
   height: 48px;
   width: 100%;
+  color: black;
   font-size: 16px;
   margin-bottom: 19.92px;
   background-color: #F0F0F0;
